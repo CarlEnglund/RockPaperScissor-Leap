@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 72pt;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36pt;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+
+}
+
+#result {
+  font-size: 50pt;
+  animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+#playAgain {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 0 auto;
+    display: none;
+}
+
+p {
+    text-align: center;
+}
