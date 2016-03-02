@@ -12,10 +12,6 @@ var controller = Leap.loop(function(frame){
     }
 });
 
-function isTrue(value) {
-  return value;
-}
-
 function returnHand() {
      if(!logged) {
         
